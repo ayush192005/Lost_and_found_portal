@@ -25,6 +25,7 @@
 
 html,
 body {
+
     padding: 0;
     margin: 0;
 }
@@ -34,6 +35,8 @@ body {
     width: 100%;
     margin: auto;
 }
+
+
 
 /* MARK: Page 1 CSS */
 .bg-image {
@@ -45,6 +48,10 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+}
+
+.image-container {
+    height: 1180px;
 }
 
 .logo {
@@ -85,6 +92,8 @@ hr {
     background-color: #910115;
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(149, 3, 3, 0.714);
+    transform: scale(1.1);
+    transition: all 0.4s ease-in;
 }
 
 /* MARK: Page 2 CSS */
@@ -111,6 +120,7 @@ hr {
     padding-top: 15px;
 }
 
+
 #button1 {
     height: 75px;
     width: 350px;
@@ -118,15 +128,19 @@ hr {
     color: white;
     font-size: 40px;
     border-radius: 50px;
-    position: relative;
-    left: 131px;
-    top: 140px;
     font-family: 'Breda Two', sans-serif;
     font-weight: 200;
+    align-items: center;
 }
 
 #color-btn {
     color: white;
+}
+
+.button1 {
+    padding-top: 190px;
+    padding-left: 100px;
+
 }
 
 #button1:hover {
@@ -296,6 +310,7 @@ hr {
     align-items: center;
     justify-content: space-around;
 }
+
 
 #big-burger-img {
     display: flex;
@@ -588,3 +603,157 @@ iframe {
     display: flex;
     justify-content: center;
 }
+
+
+/*  ---------- Phone Screen ---------- */
+@media screen and (max-width:720px) {
+    .container {
+        flex-wrap: wrap;
+        width: 720px;
+    }
+
+    .bg-image {
+        height: 1200px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .navbars {
+        display: none;
+    }
+
+    #menu-logo {
+        color: #ffffff;
+        font-size: 50px;
+        float: right;
+        padding-top: 140px;
+        padding-right: 60px;
+    }
+
+    .content h1 {
+        flex-wrap: wrap;
+        font-size: 70px;
+    }
+
+    .content h2 {
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+
+    #button1 {
+        width: 250px;
+        position: relative;
+        right: 120px;
+    }
+
+    .second-frame {
+        height: auto;
+    }
+
+    .three-images {
+        flex-wrap: wrap;
+    }
+
+    .button-area {
+        padding-bottom: 30px;
+    }
+
+    .Blur-image {
+        height: 300px;
+        align-items: center;
+    }
+
+    .pragraph-section {
+        white-space: nowrap;
+        padding: 40px;
+    }
+
+    .pragraph-section h1 {
+        font-size: 40px;
+    }
+
+    .pragraph-section p {
+        font-size: 20px;
+    }
+
+    .kfc-burgers {
+        height: 1350px;
+    }
+
+    #bg-burger {
+       display: inline;
+    }
+
+    #Two-layer-burger2{
+        padding: 30px;
+    }
+
+    #classic-bu {
+        padding: 30px;
+    }
+
+
+
+    #text-frame5 {
+         display:grid;
+    }
+
+    #text-frame5 h1{
+        font-size: 30px;
+    }
+
+    #text-frame5 p {
+        font-size: 20px;
+    }
+
+    #big-burger-img {
+        width: 300px;
+        height: auto;
+       
+    }
+
+
+}
+
+@media (max-width:740px) {
+    .content h2 {
+        /* font-size: 20px; */
+        flex-wrap: wrap;
+    }
+
+    .content h1 {
+        font-size: 60px;
+    }
+}
+
+/* For not show */
+@media screen and (min-width:1165px) {
+
+    #menu-logo {
+        display: none;
+    }
+
+}
+
+@media (max-width: 769px) {
+    .content {
+        white-space: nowrap;
+    }
+
+    .content h1 {
+        font-size: 48px;
+    }
+
+    .content h2 {
+        font-size: 27px;
+    }
+
+    .button1 {
+        width: 170px;
+        font-size: 20px;
+    }
+
+}
+
+/* ------ Page 2 media ----- */
