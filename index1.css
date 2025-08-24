@@ -61,10 +61,25 @@ body {
     transition: 0.5s all ease-out;
 }
 
+.second {
+    padding: 170px;
+}
+
 .main-content {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 30px;
+}
+
+.main-content h1 {
+    font-size: 60px;
+    width: fit-content;
+}
+
+.main-content h2 {
+    font-size: 40px;
+    padding-top: 30px;
+    width: fit-content;
 }
 
 .buttons_sections {
@@ -76,25 +91,113 @@ body {
 #btn1 {
     text-decoration: none;
     list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    background-image: linear-gradient(#7D9D9C, #576F72);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    ;
+}
+
+#btn2 {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    background-image: linear-gradient(#DBE2EF, #3F72AF);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#btn1:hover {
+    background-color: rgb(240, 43, 29);
+}
+
+.how_work {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: rgb(35, 167, 243);
-    padding: 12px;
+    padding-left: 200px;
+    width: fit-content;
+
+}
+
+.how_work h1 {
+    font-size: 40px;
+}
+
+#explain ul {
+    font-size: 25px;
+}
+
+.success_rate {
+    padding: 50px;
+}
+
+.three_boxs {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.heading {
+    display: flex;
+    padding-left: 260px;
+}
+
+.success_rate h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+}
+
+#boxes {
+    width: 400px;
+    height: 170px;
+    background-color: white;
     border-radius: 10px;
 }
 
-#btn1:hover{
-    background-color:rgb(240, 43, 29);
+.two_images {
+    width: fit-content;
+    display: flex;
+    align-items: center;
 }
 
-.image {
+#avtar {
+    padding: 13px;
+}
+
+#box1_text p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
-.image img {
-    width: 40%;
-    height: 400px;
-    border-radius: 40px;
+
+#five_star {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#boxes:hover {
+    transform: scale(1.1);
+    transition: 0.3s all ease-in;
+    box-shadow: 0px 20px 20px rgba(255, 255, 255, 0.532);
+}
+
+.first_footer {
+    background-color: rgb(255, 252, 252);
+    height: 100px;
+    width: 100%;
 }
