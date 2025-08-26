@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 243, 219);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+
+    padding: 0;
+    margin: 0;
+}
+
+.container2 {
+    max-width: 2000px;
+    width: 100%;
+    margin: auto;
+}
+
+.logo_text {
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: rgb(48, 176, 235);
+    border-radius: 10px;
+    transition: 0.5s all ease-out;
+}
+
+.main_section2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.item_field {
+    padding: 10px;
+}
+
+.item_field h2 {
+    padding-bottom: 10px;
+}
+
+.item_field input {
+    width: 700px;
+    font-size: 17px;
+    padding: 6px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#item_categ {
+    padding: 10px;
+}
+
+#item_categ label {
+    font-size: 20px;
+}
+
+#option_section {
+    padding-top: 10px;
+}
+
+#items {
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#discription_section {
+    padding: 10px;
+}
+
+#discription_section h2{
+   padding-bottom: 10px;
+}
+
+#upload_section {
+    display: flex;
+    padding: 10px;
+}
+
+#browse {
+    width: fit-content;
+}
+
+#browse h3{
+    padding: 3px;
+}
+
+.date_time {
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#meeting{
+    height: 25px;
+    font-size: 18px;
+}
+
+.location_section {
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.location_section input {
+    width: 400px;
+    padding: 8px
+}
+
+.contact_info{
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.input_holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.input_holder input {
+    padding: 8px;
+}
+
+.button{
+    padding-top: 20px;
+    padding: 10px;
+}
+
+#upload {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #010101;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    width: 180px;
+    height: 50px;
+}
+

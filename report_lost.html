@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="report_lost.css">
+</head>
+
+<body>
+    <div class="container2">
+        <div class="navbar">
+            <div class="logo_text">
+                <img src="Logo-removebg-preview.png" width="70" height="70">
+                <h3>Lost & Found Portal</h3>
+            </div>
+            <ul>
+                <a href="index1.html">
+                    <li>Home</li>
+                </a>
+                <a href="report_lost.html">
+                    <li>Report Lost</li>
+                </a>
+                <a href="report_found.html">
+                    <li>Report Found</li>
+                </a>
+                <a href="search_item.html">
+                    <li>Search Items</li>
+                </a>
+                <a href="#">
+                    <li>Help</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="second2">
+            <div class="main_section2">
+                <h1>Report a Lost Item</h1>
+            </div>
+        </div>
+
+        <div class="form">
+            <div class="form_section">
+                <div class="item_field">
+                    <h2>ITEM NAME</h2>
+                    <input type="text" placeholder="Item Name">
+                </div>
+
+                <div id="item_categ">
+                    <h2>ITEM CATEGORY</h2>
+                    <div id="option_section">
+                        <label for="items"></label>
+                        <select id="items">
+                            <option>Electronics</option>
+                            <option>Clothing</option>
+                            <option>Documents</option>
+                            <option>Keys</option>
+                            <option>Backpacks</option>
+                            <option>Jewelry</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="discription_section">
+                    <h2>DETAILED DISCRIPTION</h2>
+                    <textarea id="description" name="description" rows="5" cols="94"
+                        placeholder="Write your description here..."></textarea>
+                </div>
+
+                <div id="upload_section">
+                    <a href="#"><img src="upload_logo.png"></a>
+                    <div id="browse">
+                        <h3>UPLOAD PHOTO</h3>
+                        <h4>Browse Files</h4>
+                    </div>
+                </div>
+
+                <div class="date_time">
+                    <h2>DATE AND TIME LOST</h2>
+                    <form>
+                        <label for="meeting"></label>
+                        <input type="datetime-local" id="meeting" name="meeting">
+                    </form>
+                </div>
+
+                <div class="location_section">
+                    <input type="text" placeholder="LAST SEEN LOCATION">
+                </div>
+
+                <div class="contact_info">
+                    <h2>CONTACT INFORMATION</h2>
+                    <div class="input_holder">
+                        <input type="text" placeholder="NAME">
+                        <input type="text" placeholder="EMAIL">
+                        <input type="text" placeholder="ADDRESS">
+                        <input type="text" placeholder="PHONE NUMBER">
+                    </div>
+
+                </div>
+
+                <div class="button">
+                   <a href="#"><button id="upload">SUBMIT REPORT </button></a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
