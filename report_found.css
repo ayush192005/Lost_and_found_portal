@@ -5,6 +5,7 @@
 
 body {
     background-color: #576F72;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -84,7 +85,6 @@ body {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    ;
 }
 
 #btn2 {
@@ -111,11 +111,11 @@ body {
 }
 
 .form {
-    padding: 30px;
+    padding: 50px;
 }
 
 .text {
-    padding: 30px;
+    padding-bottom: 30px;
 }
 
 .text h1 {
@@ -128,11 +128,15 @@ body {
     padding: 10px;
 }
 
+.item_names {
+    padding: 10px;
+}
+
 .item_names h2 {
     font-size: 28px;
     text-align: left;
     width: fit-content;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .item_names input {
@@ -141,11 +145,13 @@ body {
     width: 900px;
 }
 
-.found_category {}
+.found_category {
+    padding: 10px;
+}
 
 .found_category h2 {
     font-size: 28px;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .category_buttons {
@@ -160,9 +166,13 @@ body {
     cursor: pointer;
 }
 
+.description_sec {
+    padding: 10px;
+}
+
 .description_sec h2 {
     font-size: 28px;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .description_sec textarea {
@@ -173,7 +183,9 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.upload_btn {}
+.upload_btn {
+    padding: 10px;
+}
 
 #upload {
     padding: 10px;
@@ -185,9 +197,12 @@ body {
     height: 50px;
 }
 
+.date_time_sec{
+    padding-top: 20px;
+}
 .date_time_sec h2 {
     font-size: 28px;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .flex_time {
@@ -206,40 +221,52 @@ body {
     text-decoration: none;
 }
 
-.found_location h2{
+.found_location{
     padding: 10px;
+}
+.found_location h2 {
+    padding-bottom: 10px;
     font-size: 28px;
 }
 
 .found_location input {
-    width:450px;
+    width: 450px;
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.founder_info h2{
+.founder_info h2 {
     padding: 10px;
     font-size: 28px;
 }
 
-.fill_section{
+.fill_section {
     font-size: 23px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.fill_section  input{
+.fill_section input {
     padding: 10px;
     height: 10px;
-    width: 400px;
+    width: 500px;
 }
 
-#namw1{
+#namw1 {
     display: flex;
+    gap: 225px;
+    padding: 10px;
 }
 
-#em1{
-     display: flex;
+#em1 {
+    display: flex;
     gap: 150px;
-
+    padding: 10px;
 }
+
+#ph {
+    display: flex;
+    gap: 136px;
+    padding: 10px;
+}
+
