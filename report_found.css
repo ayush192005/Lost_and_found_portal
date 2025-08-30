@@ -384,29 +384,57 @@ body {
     width: fit-content;
 }
 
-.image_containers1{
+.image_containers1 {
     padding: 10px;
     display: flex;
     gap: 30px;
 }
 
-.frame1{
+.frame1 {
     width: 230px;
     height: 300px;
-    background-color: #ffffff;
+    background-color: #ffffffb6;
     border: 10px;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
 }
 
-.frame1 img{
+.frame1 img {
     border-radius: 30px;
     padding: 20px;
 }
 
-.image_containers2{
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image_containers2 {
     padding: 10px;
     display: flex;
     gap: 30px;
 }
+
+#heading {
+    padding-left: 20px;
+}
+
+.detl1 {
+    padding-top: 6px;
+    padding-left: 20px;
+}
+
+.claim_btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#claim_btn{
+    padding:2px;
+    width: 170px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: grey;
+    color: white;
+}   
