@@ -6,24 +6,23 @@
 body {
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: radial-gradient(circle at center, #DDF4E7, #67C090, #26667F, #124170);
-    background-size: 400% 400%;
-    animation: animate 12s ease infinite;
+    background: linear-gradient(60deg, #ff007f,#8e2de2, #4a00e0, #8e2de2, #ff007f);
+    background-size: 300% 300%;
+    animation: cosmicGradient 22s ease infinite;
+    color: white;
 }
 
-@keyframes animate {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
+  @keyframes cosmicGradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
 
 html,
 body {
@@ -240,6 +239,10 @@ body {
     justify-content: space-between;
 }
 
+#preview {
+    color: white;
+}
+
 .flex_time input {
     padding: 10px;
 }
@@ -393,9 +396,11 @@ body {
 .frame1 {
     width: 230px;
     height: 300px;
-    background-color: #ffffffb6;
+    background-color: #F8F8F8 ;
     border: 10px;
     border-radius: 20px;
+    color: #333333;
+    border: 4px solid #E0E0E0;
 }
 
 .frame1 img {
@@ -429,12 +434,12 @@ body {
     padding-top: 10px;
 }
 
-#claim_btn{
-    padding:2px;
+#claim_btn {
+    padding: 2px;
     width: 170px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     border-radius: 6px;
-    background-color: grey;
+    background-color: #8E2DE2 ;
     color: white;
-}   
+}
