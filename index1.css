@@ -23,6 +23,19 @@ body {
     }
 }
 
+html,
+body {
+
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 2000px;
+    width: 100%;
+    margin: auto;
+}
+
 .logo_text {
     display: flex;
     gap: 10px;
@@ -37,6 +50,7 @@ body {
     justify-content: space-evenly;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.164);
+
 }
 
 .navbar ul {
@@ -148,7 +162,7 @@ body {
 
 .heading {
     display: flex;
-    padding-left: 260px;
+    padding-left: 200px;
 }
 
 .success_rate h1 {
@@ -197,7 +211,36 @@ body {
 }
 
 .first_footer {
-    background-color: rgb(255, 252, 252);
-    height: 100px;
+    background-color: #EFEFEF;
+    height: 150px;
     width: 100%;
+    display: flex;
+    gap: 320px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright_sec {
+    color: black;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+.icons {
+    padding-right: 110px;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: block;
+    gap: 20px;
+    color: black;
+    padding-right: 30px;
 }
